@@ -1,0 +1,192 @@
+[
+  {
+    "title": "Specials",
+    "slug": "specials",
+    "group": "shop",
+    "parent": null,
+    "description": "Limited-time deals and clearance items."
+  },
+  {
+    "title": "Firearm Accessories & Components",
+    "slug": "firearm-accessories",
+    "group": "firearm",
+    "parent": null,
+    "description": "Hard-use components and accessories built for duty."
+  },
+  {
+    "title": "Barrels",
+    "slug": "barrels",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Precision barrels for reliable performance."
+  },
+  {
+    "title": "BCGs",
+    "slug": "bcgs",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Bolt carrier groups and small parts."
+  },
+  {
+    "title": "Charging Handles",
+    "slug": "charging-handles",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Ambi and standard charging handles."
+  },
+  {
+    "title": "Flash Hiders",
+    "slug": "flash-hiders",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Flash mitigation devices."
+  },
+  {
+    "title": "Muzzle Brakes",
+    "slug": "muzzle-brakes",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Recoil-reduction muzzle brakes."
+  },
+  {
+    "title": "Upper Parts",
+    "slug": "upper-parts",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Upper receiver components and hardware."
+  },
+  {
+    "title": "AR15 Furniture Sets",
+    "slug": "ar15-furniture-sets",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Complete furniture sets for AR platforms."
+  },
+  {
+    "title": "AR15 Furniture - Standard Colors",
+    "slug": "ar15-furniture-standard-colors",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Stocks, grips, and handguards in standard colors."
+  },
+  {
+    "title": "AR15 Furniture - Special Colors",
+    "slug": "ar15-furniture-special-colors",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Limited-run colors and coatings."
+  },
+  {
+    "title": "Shotgun Systems",
+    "slug": "shotgun-systems",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Shotgun accessories and mounts."
+  },
+  {
+    "title": "CAV-15 Accessories",
+    "slug": "cav-15-accessories",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Accessories for CAV-15 systems."
+  },
+  {
+    "title": "SCAR Accessories",
+    "slug": "scar-accessories",
+    "group": "firearm",
+    "parent": "firearm-accessories",
+    "description": "Platform-specific SCAR accessories."
+  },
+  {
+    "title": "Cavalry Medical",
+    "slug": "cavalry-medical",
+    "group": "medical",
+    "parent": null,
+    "description": "Medical gear for range, duty, and emergency response."
+  },
+  {
+    "title": "Tourniquets",
+    "slug": "tourniquets",
+    "group": "medical",
+    "parent": "cavalry-medical",
+    "description": "Rapid hemorrhage control."
+  },
+  {
+    "title": "IFAKs",
+    "slug": "ifaks",
+    "group": "medical",
+    "parent": "cavalry-medical",
+    "description": "Individual first aid kits and refills."
+  },
+  {
+    "title": "Pouches",
+    "slug": "pouches",
+    "group": "medical",
+    "parent": "cavalry-medical",
+    "description": "Medical pouches and carriers."
+  },
+  {
+    "title": "Supplies",
+    "slug": "supplies",
+    "group": "medical",
+    "parent": "cavalry-medical",
+    "description": "Core medical supplies and consumables."
+  },
+  {
+    "title": "Emergency Bandages",
+    "slug": "emergency-bandages",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Pressure bandages and wraps."
+  },
+  {
+    "title": "Celox - Hemostatic Granules",
+    "slug": "hemostatics",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Hemostatic granules for wound control."
+  },
+  {
+    "title": "Chest Seals",
+    "slug": "chest-seals",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Occlusive seals for chest injuries."
+  },
+  {
+    "title": "Airway",
+    "slug": "airway",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Airway management essentials."
+  },
+  {
+    "title": "Protective Equipment",
+    "slug": "protective-equipment",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Gloves, eye protection, and PPE."
+  },
+  {
+    "title": "Decontamination",
+    "slug": "decontamination",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Decon wipes and cleaning supplies."
+  },
+  {
+    "title": "Cavalry Medical Kits",
+    "slug": "cavalry-medical-kits",
+    "group": "medical",
+    "parent": "cavalry-medical",
+    "description": "Ready-to-go kits for home, range, and vehicle."
+  },
+  {
+    "title": "Misc. Bandages and Ab Pads",
+    "slug": "misc-bandages-and-ab-pads",
+    "group": "medical",
+    "parent": "supplies",
+    "description": "Additional pads and dressings."
+  }
+]
+

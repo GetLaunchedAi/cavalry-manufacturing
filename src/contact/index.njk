@@ -1,0 +1,34 @@
+---
+layout: layouts/page.njk
+title: Contact
+kicker: Support
+subtitle: Send a message — we’ll get back to you.
+---
+
+<div class="field-row cols-2">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" placeholder="Your name" />
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input id="email" type="email" placeholder="you@example.com" />
+  </div>
+</div>
+
+<div style="height:14px;"></div>
+
+<label for="msg">Message</label>
+<textarea id="msg" placeholder="How can we help?"></textarea>
+
+<div style="height:14px;"></div>
+
+<button class="btn primary" type="button" onclick="alert('Thanks for reaching out. We will respond soon.');">Send</button>
+
+<hr />
+
+<div class="badge">📞 {{ site.phone }}</div>
+<div class="small" style="margin-top:6px;">Fax: {{ site.fax }}</div>
+<div class="small" style="margin-top:6px;"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+<div class="small" style="margin-top:10px;">{{ site.hours }}</div>

@@ -1,0 +1,131 @@
+{
+  "brand": "Cavalry Manufacturing",
+  "logo": "/assets/img/products/cavalry-manufacturing-logo-yellow-01.png",
+  "tagline": "Firearm accessories, components, and medical gear built for hard use.",
+  "url": "https://www.cavalrymanufacturing.com/",
+  "phone": "480-833-9685",
+  "fax": "480-497-4002",
+  "email": "office@cavalrymanufacturing.com",
+  "hours": "Call for hours.",
+  "shippingNote": "We ship to US and US military addresses only. Orders may take up to 2 weeks to ship.",
+  "addressShort": "Made in the USA",
+  "nav": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "Collections",
+      "children": [
+        {
+          "label": "Specials",
+          "url": "/collections/specials/"
+        },
+        {
+          "label": "Firearm Accessories & Components",
+          "children": [
+            {
+              "label": "AR15 Furniture Sets",
+              "url": "/collections/ar15-furniture-sets/"
+            },
+            {
+              "label": "AR15 Furniture - Standard Colors",
+              "url": "/collections/ar15-furniture-standard-colors/"
+            },
+            {
+              "label": "AR15 Furniture - Special Colors",
+              "url": "/collections/ar15-furniture-special-colors/"
+            },
+            {
+              "label": "Shotgun Systems",
+              "url": "/collections/shotgun-systems/"
+            },
+            {
+              "label": "CAV-15 Accessories",
+              "url": "/collections/cav-15-accessories/"
+            },
+            {
+              "label": "SCAR Accessories",
+              "url": "/collections/scar-accessories/"
+            }
+          ]
+        },
+        {
+          "label": "Cavalry Medical",
+          "children": [
+            {
+              "label": "Emergency Bandages",
+              "url": "/collections/emergency-bandages/"
+            },
+            {
+              "label": "Celox - Hemostatic Granules",
+              "url": "/collections/hemostatics/"
+            },
+            {
+              "label": "Chest Seals",
+              "url": "/collections/chest-seals/"
+            },
+            {
+              "label": "Tourniquets",
+              "url": "/collections/tourniquets/"
+            },
+            {
+              "label": "Protective Equipment",
+              "url": "/collections/protective-equipment/"
+            },
+            {
+              "label": "Cavalry Medical Kits",
+              "url": "/collections/cavalry-medical-kits/"
+            },
+            {
+              "label": "Decontamination",
+              "url": "/collections/decontamination/"
+            },
+            {
+              "label": "Misc. Bandages and Ab Pads",
+              "url": "/collections/misc-bandages-and-ab-pads/"
+            },
+            {
+              "label": "Airway",
+              "url": "/collections/airway/"
+            }
+          ]
+        },
+        {
+          "label": "All collections",
+          "url": "/collections/"
+        }
+      ]
+    },
+    {
+      "label": "Search",
+      "url": "/search/"
+    },
+    {
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
+    }
+  ],
+  "policies": [
+    {
+      "label": "Shipping",
+      "url": "/shipping/"
+    },
+    {
+      "label": "Returns",
+      "url": "/returns/"
+    },
+    {
+      "label": "Privacy",
+      "url": "/privacy/"
+    },
+    {
+      "label": "Terms",
+      "url": "/terms/"
+    }
+  ]
+}

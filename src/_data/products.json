@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "CM-1001",
+    "title": "C1 Fixed Buttstock",
+    "slug": "c1-fixed-buttstock",
+    "price": 35.0,
+    "compareAt": 45.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1001",
+    "tags": ["AR15", "Stock", "Polymer", "Mil-Spec"],
+    "collectionSlugs": ["ar15-furniture-standard-colors"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/ar-stock-fixed-black-01.jpg",
+      "/assets/img/products/ar-stock-fixed-black-02.jpg",
+      "/assets/img/products/ar-stock-fixed-black-03.jpg",
+      "/assets/img/products/ar-stock-fixed-black-04.jpg",
+      "/assets/img/products/ar-stock-fixed-black-05.jpg",
+      "/assets/img/products/ar-stock-fixed-black-06.jpg",
+      "/assets/img/products/ar-stock-fixed-black-07.jpg",
+      "/assets/img/products/ar-stock-fixed-black-08.jpg",
+      "/assets/img/products/ar-stock-fixed-black-09.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black", "Coyote Brown", "Olive Drab"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1002",
+    "title": "C2 Modular Grip",
+    "slug": "c2-modular-grip",
+    "price": 19.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1002",
+    "tags": ["AR15", "Grip", "Textured"],
+    "collectionSlugs": ["ar15-furniture-standard-colors"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/pistol-grip-black.jpg",
+      "/assets/img/products/pistol-grip-tan.jpg",
+      "/assets/img/products/pistol-grip-orange.jpg",
+      "/assets/img/products/pistol-grip-purple.jpg",
+      "/assets/img/products/pistol-grip-white.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black", "FDE", "Orange", "Purple", "White"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1003",
+    "title": "Cavalry M-LOK Handguard 13.5\"",
+    "slug": "cavalry-mlok-handguard-13-5",
+    "price": 129.0,
+    "compareAt": 149.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1003",
+    "tags": ["Handguard", "M-LOK", "Aluminum"],
+    "collectionSlugs": ["upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/handguard-slim-dark.jpg",
+      "/assets/img/products/handguard-slim-tan.jpg",
+      "/assets/img/products/handguard-slim-olive.jpg",
+      "/assets/img/products/handguard-slim-gray.jpg",
+      "/assets/img/products/handguard-slim-gray-02.jpg",
+      "/assets/img/products/handguard-slim-pink.jpg",
+      "/assets/img/products/handguard-slim-tan-02.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Length",
+        "options": ["10.5\"", "13.5\"", "15\""]
+      },
+      {
+        "name": "Color",
+        "options": ["Black", "FDE", "Olive Drab", "Gray", "Pink"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1004",
+    "title": "Enhanced Charging Handle (Ambi)",
+    "slug": "enhanced-charging-handle-ambi",
+    "price": 59.0,
+    "compareAt": 79.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1004",
+    "tags": ["Charging Handle", "Ambi"],
+    "collectionSlugs": ["charging-handles"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": true,
+    "images": [
+      "/assets/img/products/store-placeholder.png"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1005",
+    "title": "Standard Charging Handle",
+    "slug": "standard-charging-handle",
+    "price": 19.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1005",
+    "tags": ["Charging Handle", "Standard"],
+    "collectionSlugs": ["charging-handles"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/store-placeholder.png"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1006",
+    "title": "Nitride BCG — 5.56",
+    "slug": "nitride-bcg-556",
+    "price": 149.0,
+    "compareAt": 169.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1006",
+    "tags": ["BCG", "5.56", "Nitride"],
+    "collectionSlugs": ["bcgs"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/receiver-endplate-hardware.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1007",
+    "title": "Spare Gas Rings (3-pack)",
+    "slug": "spare-gas-rings-3pack",
+    "price": 6.5,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1007",
+    "tags": ["BCG", "Maintenance", "Spare Parts"],
+    "collectionSlugs": ["bcgs", "upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/takedown-pins-set.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1008",
+    "title": "A2 Flash Hider",
+    "slug": "a2-flash-hider",
+    "price": 12.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1008",
+    "tags": ["Flash Hider", "5.56"],
+    "collectionSlugs": ["flash-hiders"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/mounting-plate-metal.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1009",
+    "title": "Comp Muzzle Brake",
+    "slug": "comp-muzzle-brake",
+    "price": 49.0,
+    "compareAt": 59.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1009",
+    "tags": ["Muzzle Brake", "Recoil"],
+    "collectionSlugs": ["muzzle-brakes"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/mounting-plate-metal.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1010",
+    "title": "16\" Duty Barrel — 5.56 NATO",
+    "slug": "16-duty-barrel-556",
+    "price": 189.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1010",
+    "tags": ["Barrel", "5.56", "16in", "NATO"],
+    "collectionSlugs": ["barrels"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/store-placeholder.png"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1011",
+    "title": "10.3\" CQB Barrel — 5.56 NATO",
+    "slug": "10-3-cqb-barrel-556",
+    "price": 179.0,
+    "compareAt": 199.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1011",
+    "tags": ["Barrel", "5.56", "10.3in", "CQB"],
+    "collectionSlugs": ["barrels"],
+    "inStock": false,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/store-placeholder.png"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1012",
+    "title": "AR Furniture Set — Standard",
+    "slug": "ar-furniture-set-standard",
+    "price": 89.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1012",
+    "tags": ["AR15", "Furniture Set"],
+    "collectionSlugs": ["ar15-furniture-sets"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/ar-stock-fixed-black-01.jpg",
+      "/assets/img/products/pistol-grip-black.jpg",
+      "/assets/img/products/handguard-slim-dark.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black", "OD Green"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1013",
+    "title": "AR Furniture Set — Special Color",
+    "slug": "ar-furniture-set-special",
+    "price": 99.0,
+    "compareAt": 119.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1013",
+    "tags": ["AR15", "Furniture Set", "Limited"],
+    "collectionSlugs": ["ar15-furniture-special-colors", "ar15-furniture-sets"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": true,
+    "images": [
+      "/assets/img/products/ar-stock-adjustable-orange-01.jpg",
+      "/assets/img/products/ar-stock-adjustable-orange-02.jpg",
+      "/assets/img/products/ar-stock-adjustable-blue-01.jpg",
+      "/assets/img/products/ar-stock-adjustable-blue-02.jpg",
+      "/assets/img/products/ar-stock-adjustable-pink.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Burnt Bronze", "Grey"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1014",
+    "title": "Shotgun Side-Saddle 6-Round",
+    "slug": "shotgun-side-saddle-6",
+    "price": 45.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1014",
+    "tags": ["Shotgun", "Carrier", "Duty"],
+    "collectionSlugs": ["shotgun-systems"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/mounting-plate-metal.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1015",
+    "title": "SCAR Muzzle Device Adapter",
+    "slug": "scar-muzzle-device-adapter",
+    "price": 39.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1015",
+    "tags": ["SCAR", "Adapter"],
+    "collectionSlugs": ["scar-accessories"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/mounting-plate-metal.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1016",
+    "title": "CAV-15 Sling Mount",
+    "slug": "cav15-sling-mount",
+    "price": 24.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1016",
+    "tags": ["Sling", "Mount", "CAV-15"],
+    "collectionSlugs": ["cav-15-accessories"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/mounting-plate-metal.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1017",
+    "title": "C1 Adjustable Buttstock",
+    "slug": "c1-adjustable-buttstock",
+    "price": 39.0,
+    "compareAt": 49.0,
+    "shortDescription": "Adjustable-length buttstock for a custom fit.",
+    "description": "Six-position adjustable buttstock with anti-rotation QD sling mount and mil-spec buffer tube compatibility. Durable polymer construction for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1017",
+    "tags": ["AR15", "Stock", "Adjustable", "Polymer", "Mil-Spec"],
+    "collectionSlugs": ["ar15-furniture-standard-colors"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/ar-stock-adjustable-tan-01.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-02.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-03.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-04.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-05.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-06.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-07.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-08.jpg",
+      "/assets/img/products/ar-stock-adjustable-tan-09.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black", "FDE", "Olive Drab"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1018",
+    "title": "C2 Ergo Grip",
+    "slug": "c2-ergo-grip",
+    "price": 24.95,
+    "compareAt": null,
+    "shortDescription": "Ergonomic pistol grip with enhanced palm swell.",
+    "description": "Ergonomic design with textured finger grooves and a beaver-tail backstrap. Reduces fatigue during extended range sessions. Durable polymer construction for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-1018",
+    "tags": ["AR15", "Grip", "Ergo", "Textured"],
+    "collectionSlugs": ["ar15-furniture-standard-colors"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/pistol-grip-ergo-black.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1019",
+    "title": "Full-Length Polymer Handguard",
+    "slug": "full-length-polymer-handguard",
+    "price": 49.0,
+    "compareAt": 65.0,
+    "shortDescription": "Full-length two-piece polymer handguard with heat shields.",
+    "description": "Drop-in full-length polymer handguard with integrated heat shields. Fits carbine-length gas systems with round or triangular end caps. Available in standard and special colors.",
+    "sku": "CM-1019",
+    "tags": ["Handguard", "Polymer", "Full-Length"],
+    "collectionSlugs": ["ar15-furniture-special-colors", "upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/handguard-full-tan-01.jpg",
+      "/assets/img/products/handguard-full-tan-02.jpg",
+      "/assets/img/products/handguard-full-tan-03.jpg",
+      "/assets/img/products/handguard-full-tan-04.jpg",
+      "/assets/img/products/handguard-full-tan-05.jpg",
+      "/assets/img/products/handguard-full-pink.jpg",
+      "/assets/img/products/handguard-full-pink-02.jpg",
+      "/assets/img/products/handguard-full-purple-01.jpg",
+      "/assets/img/products/handguard-full-purple-02.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["FDE", "Pink", "Purple"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1020",
+    "title": "Short Polymer Handguard",
+    "slug": "short-polymer-handguard",
+    "price": 39.0,
+    "compareAt": 55.0,
+    "shortDescription": "Compact drop-in handguard for SBR and pistol builds.",
+    "description": "Lightweight short-length polymer handguard ideal for pistol-length gas systems and compact builds. Integrated heat shields and ergonomic grip surface.",
+    "sku": "CM-1020",
+    "tags": ["Handguard", "Polymer", "Short"],
+    "collectionSlugs": ["ar15-furniture-special-colors", "upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/handguard-short-orange-01.jpg",
+      "/assets/img/products/handguard-short-orange-02.jpg",
+      "/assets/img/products/handguard-short-orange-03.jpg",
+      "/assets/img/products/handguard-short-orange-04.jpg",
+      "/assets/img/products/handguard-short-orange-05.jpg",
+      "/assets/img/products/handguard-short-orange-06.jpg",
+      "/assets/img/products/handguard-short-orange-07.jpg",
+      "/assets/img/products/handguard-short-orange-08.jpg",
+      "/assets/img/products/handguard-short-tan.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Orange", "FDE"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1021",
+    "title": "Vented Polymer Handguard",
+    "slug": "vented-polymer-handguard",
+    "price": 44.0,
+    "compareAt": null,
+    "shortDescription": "Heat-vented polymer handguard for improved cooling.",
+    "description": "Polymer handguard with ventilation slots for improved barrel cooling during sustained fire. Drop-in design for quick installation.",
+    "sku": "CM-1021",
+    "tags": ["Handguard", "Polymer", "Vented"],
+    "collectionSlugs": ["upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/handguard-vented-tan-01.jpg",
+      "/assets/img/products/handguard-vented-tan-02.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["FDE"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1022",
+    "title": "Grip Cover Set",
+    "slug": "grip-cover-set",
+    "price": 9.95,
+    "compareAt": 14.95,
+    "shortDescription": "Slip-on rubber grip covers for added comfort and control.",
+    "description": "Textured rubber grip cover that slides over most standard AR pistol grips. Improves grip in wet or cold conditions and reduces felt vibration.",
+    "sku": "CM-1022",
+    "tags": ["AR15", "Grip", "Cover", "Rubber"],
+    "collectionSlugs": ["ar15-furniture-standard-colors", "ar15-furniture-special-colors"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/grip-cover-black-yellow.jpg",
+      "/assets/img/products/grip-cover-blue-yellow.jpg",
+      "/assets/img/products/grip-cover-blue-yellow-02.png",
+      "/assets/img/products/grip-cover-blue-yellow-03.png",
+      "/assets/img/products/grip-cover-purple-yellow.jpg",
+      "/assets/img/products/grip-cover-red-black.png"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black/Yellow", "Blue/Yellow", "Purple/Yellow", "Red/Black"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1023",
+    "title": "AR Lower Receiver — Stripped",
+    "slug": "ar-lower-receiver-stripped",
+    "price": 89.0,
+    "compareAt": null,
+    "shortDescription": "Mil-spec forged 7075-T6 stripped lower receiver.",
+    "description": "Forged 7075-T6 aluminum stripped lower receiver. Mil-spec dimensions with type III hard-coat anodized finish. Compatible with all standard AR15 components.",
+    "sku": "CM-1023",
+    "tags": ["AR15", "Lower Receiver", "Stripped", "Forged"],
+    "collectionSlugs": ["ar15-furniture-standard-colors"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/ar-lower-receiver-black.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1024",
+    "title": "Buffer Tube Kit — Mil-Spec",
+    "slug": "buffer-tube-kit-milspec",
+    "price": 34.95,
+    "compareAt": 44.95,
+    "shortDescription": "Complete mil-spec buffer tube assembly kit.",
+    "description": "Complete buffer tube kit including mil-spec buffer tube, castle nut, end plate, buffer spring, and carbine buffer. Everything needed to assemble the rear of your AR lower receiver.",
+    "sku": "CM-1024",
+    "tags": ["AR15", "Buffer Tube", "Kit", "Mil-Spec"],
+    "collectionSlugs": ["ar15-furniture-standard-colors"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/stock-buffer-tube-kit-black.jpg",
+      "/assets/img/products/stock-buffer-tube-kit-black-02.jpg",
+      "/assets/img/products/stock-buffer-tube-kit-black-03.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-1025",
+    "title": "Takedown Pins Set",
+    "slug": "takedown-pins-set",
+    "price": 9.95,
+    "compareAt": null,
+    "shortDescription": "Extended takedown and pivot pin set with detents and springs.",
+    "description": "Stainless steel extended takedown and pivot pins with included detents and springs. Easy-grab serrated heads for quick disassembly without tools.",
+    "sku": "CM-1025",
+    "tags": ["AR15", "Takedown Pins", "Hardware"],
+    "collectionSlugs": ["upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/takedown-pins-set.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2001",
+    "title": "CAT Tourniquet (Gen 7)",
+    "slug": "cat-tourniquet-gen7",
+    "price": 34.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2001",
+    "tags": ["Tourniquet", "TCCC"],
+    "collectionSlugs": ["tourniquets"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/tourniquet-orange.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2002",
+    "title": "SOF-T Wide Tourniquet",
+    "slug": "softt-wide-tourniquet",
+    "price": 33.95,
+    "compareAt": 39.95,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2002",
+    "tags": ["Tourniquet", "Wide"],
+    "collectionSlugs": ["tourniquets"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/tourniquet-orange.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2003",
+    "title": "Compact IFAK Kit — Basic",
+    "slug": "compact-ifak-kit-basic",
+    "price": 79.0,
+    "compareAt": 99.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2003",
+    "tags": ["IFAK", "Kit", "Range"],
+    "collectionSlugs": ["ifaks", "cavalry-medical-kits"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/trauma-kit-red-bag-open.jpg",
+      "/assets/img/products/trauma-kit-contents-layout.jpg",
+      "/assets/img/products/trauma-kit-supplies.jpg",
+      "/assets/img/products/trauma-kit-contents-black-bg.jpg",
+      "/assets/img/products/trauma-kit-items-red-bg.jpg",
+      "/assets/img/products/trauma-kit-supplies-assorted.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2004",
+    "title": "IFAK Refill Pack",
+    "slug": "ifak-refill-pack",
+    "price": 39.0,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2004",
+    "tags": ["IFAK", "Refill", "Supplies"],
+    "collectionSlugs": ["ifaks", "supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/trauma-kit-contents-layout.jpg",
+      "/assets/img/products/trauma-kit-supplies-02.jpg",
+      "/assets/img/products/trauma-kit-supplies-03.jpg",
+      "/assets/img/products/trauma-kit-supplies-04.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2005",
+    "title": "Trauma Shears 7.5\"",
+    "slug": "trauma-shears-7-5",
+    "price": 8.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2005",
+    "tags": ["Shears", "Tools"],
+    "collectionSlugs": ["supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/multi-tool-pliers.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2006",
+    "title": "Emergency Bandage 6\"",
+    "slug": "emergency-bandage-6",
+    "price": 7.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2006",
+    "tags": ["Bandage", "Pressure"],
+    "collectionSlugs": ["emergency-bandages"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/emergency-bandage-packet.jpg",
+      "/assets/img/products/emergency-bandage-packet-03.jpg",
+      "/assets/img/products/emergency-bandage-packet-04.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2007",
+    "title": "Emergency Bandage 4\"",
+    "slug": "emergency-bandage-4",
+    "price": 6.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2007",
+    "tags": ["Bandage", "Pressure"],
+    "collectionSlugs": ["emergency-bandages"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/emergency-bandage-packet-02.jpg",
+      "/assets/img/products/emergency-bandage-packet-05.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2008",
+    "title": "Occlusive Chest Seal (Twin Pack)",
+    "slug": "occlusive-chest-seal-twin",
+    "price": 13.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2008",
+    "tags": ["Chest Seal", "Trauma"],
+    "collectionSlugs": ["chest-seals"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/chest-seal-packet.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2009",
+    "title": "Hemostatic Gauze",
+    "slug": "hemostatic-gauze",
+    "price": 29.95,
+    "compareAt": 34.95,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2009",
+    "tags": ["Hemostatic", "Gauze", "Wound"],
+    "collectionSlugs": ["hemostatics"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/celox-hemostatic-gauze.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2010",
+    "title": "Celox Granules 15g",
+    "slug": "celox-granules-15g",
+    "price": 24.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2010",
+    "tags": ["Hemostatic", "Celox"],
+    "collectionSlugs": ["hemostatics"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/medical-foil-pack-labeled.jpg",
+      "/assets/img/products/medical-foil-pack.jpg",
+      "/assets/img/products/medical-foil-pack-02.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2011",
+    "title": "Nitrile Gloves (Pair)",
+    "slug": "nitrile-gloves-pair",
+    "price": 1.25,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2011",
+    "tags": ["PPE", "Gloves"],
+    "collectionSlugs": ["protective-equipment"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/nitrile-gloves-blue.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2012",
+    "title": "Medical Pouch — Rip-Away",
+    "slug": "medical-pouch-rip-away",
+    "price": 29.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2012",
+    "tags": ["Pouch", "Rip-Away"],
+    "collectionSlugs": ["pouches"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/utility-pouch-black-red-zips.jpg",
+      "/assets/img/products/utility-pouch-black-red-zips-02.png"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Black", "Coyote"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2013",
+    "title": "Chest Seal Training Pack",
+    "slug": "chest-seal-training-pack",
+    "price": 9.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2013",
+    "tags": ["Training", "Chest Seal"],
+    "collectionSlugs": ["chest-seals", "supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/chest-seal-vented-red-bg.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2014",
+    "title": "Nasopharyngeal Airway Kit",
+    "slug": "nasopharyngeal-airway-kit",
+    "price": 12.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2014",
+    "tags": ["Airway", "NPA"],
+    "collectionSlugs": ["airway"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/nasopharyngeal-airway-green.jpg",
+      "/assets/img/products/surgical-lubricant-packet.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2015",
+    "title": "Decon Wipes (10-pack)",
+    "slug": "decon-wipes-10pack",
+    "price": 6.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2015",
+    "tags": ["Decon", "Wipes"],
+    "collectionSlugs": ["decontamination"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/medical-supplies-small-packs.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2016",
+    "title": "ABD Pads (5-pack)",
+    "slug": "abd-pads-5pack",
+    "price": 4.95,
+    "compareAt": null,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-2016",
+    "tags": ["Dressings", "ABD"],
+    "collectionSlugs": ["misc-bandages-and-ab-pads"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/gauze-pads.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2017",
+    "title": "Bandage Dressing Kit",
+    "slug": "bandage-dressing-kit",
+    "price": 12.95,
+    "compareAt": null,
+    "shortDescription": "Comprehensive dressing kit for wound management.",
+    "description": "Multi-component bandage dressing kit with sterile gauze, adhesive bandages, and wound closure strips. Compact packaging for IFAK or range bag.",
+    "sku": "CM-2017",
+    "tags": ["Bandage", "Dressing", "Kit"],
+    "collectionSlugs": ["misc-bandages-and-ab-pads", "supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/bandage-dressing-kit.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2018",
+    "title": "Elastic Bandage Wrap",
+    "slug": "elastic-bandage-wrap",
+    "price": 4.95,
+    "compareAt": null,
+    "shortDescription": "Self-adhering elastic bandage for compression and support.",
+    "description": "Cohesive elastic bandage wrap for compression dressings, sprains, and securing splints. Self-adhering — no clips or tape needed. 3\" wide roll.",
+    "sku": "CM-2018",
+    "tags": ["Bandage", "Elastic", "Wrap"],
+    "collectionSlugs": ["emergency-bandages", "supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/elastic-bandage-wrap-tan.jpg",
+      "/assets/img/products/elastic-bandage-wrap-pink.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Tan", "Pink"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2019",
+    "title": "Gauze Roll Bandage",
+    "slug": "gauze-roll-bandage",
+    "price": 3.95,
+    "compareAt": null,
+    "shortDescription": "Sterile conforming gauze roll for wound packing and dressing.",
+    "description": "Sterile conforming gauze roll bandage, 4.5\" x 4.1 yards. Ideal for wound packing, securing dressings, and general first aid. Individually wrapped.",
+    "sku": "CM-2019",
+    "tags": ["Gauze", "Bandage", "Roll"],
+    "collectionSlugs": ["misc-bandages-and-ab-pads", "supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/gauze-roll-bandage.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2020",
+    "title": "CPR Pocket Mask",
+    "slug": "cpr-pocket-mask",
+    "price": 9.95,
+    "compareAt": null,
+    "shortDescription": "Compact CPR barrier mask with one-way valve.",
+    "description": "Single-patient CPR pocket mask with one-way valve and elastic head strap. Provides a barrier between rescuer and patient during resuscitation. Hard case included.",
+    "sku": "CM-2020",
+    "tags": ["CPR", "Mask", "Airway"],
+    "collectionSlugs": ["airway", "supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/cpr-mask.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2021",
+    "title": "Tactical Gloves",
+    "slug": "tactical-gloves",
+    "price": 19.95,
+    "compareAt": null,
+    "shortDescription": "Durable tactical gloves with touchscreen-compatible fingertips.",
+    "description": "Full-finger tactical gloves with padded knuckles, reinforced palms, and touchscreen-compatible index finger and thumb. Suitable for range, EMS, and field use.",
+    "sku": "CM-2021",
+    "tags": ["Gloves", "Tactical", "PPE"],
+    "collectionSlugs": ["protective-equipment"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/tactical-gloves-olive.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Olive"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2022",
+    "title": "Face Shield",
+    "slug": "face-shield",
+    "price": 5.95,
+    "compareAt": null,
+    "shortDescription": "Clear disposable face shield for splash protection.",
+    "description": "Disposable full-face shield with adjustable foam headband. Provides splash and fluid protection during medical procedures and first aid.",
+    "sku": "CM-2022",
+    "tags": ["Face Shield", "PPE"],
+    "collectionSlugs": ["protective-equipment"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/face-shield.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2023",
+    "title": "PPE Kit (Mask + Gloves)",
+    "slug": "ppe-kit-mask-gloves",
+    "price": 7.95,
+    "compareAt": null,
+    "shortDescription": "Personal protection essentials in a compact pouch.",
+    "description": "Single-use PPE kit containing N95 mask and two pairs of nitrile gloves in a resealable pouch. Essential protection for first responders and range medics.",
+    "sku": "CM-2023",
+    "tags": ["PPE", "Kit", "Mask", "Gloves"],
+    "collectionSlugs": ["protective-equipment"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/ppe-mask-gloves-kit.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2024",
+    "title": "Medical Sponges (Box)",
+    "slug": "medical-sponges-box",
+    "price": 6.95,
+    "compareAt": null,
+    "shortDescription": "Sterile gauze sponges for wound cleaning and absorption.",
+    "description": "Box of sterile 4x4 gauze sponges for wound cleaning, debridement, and fluid absorption. 12-ply woven cotton. Individually packed pairs.",
+    "sku": "CM-2024",
+    "tags": ["Gauze", "Sponges", "Medical"],
+    "collectionSlugs": ["supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/medical-sponges-box.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2025",
+    "title": "Medical Tape (2-pack)",
+    "slug": "medical-tape-2pack",
+    "price": 5.95,
+    "compareAt": null,
+    "shortDescription": "Adhesive medical tape for securing dressings and devices.",
+    "description": "Two rolls of 1\" surgical tape. Hypoallergenic adhesive tears easily without scissors. Essential for securing gauze, NPA tubes, IV lines, and chest seals.",
+    "sku": "CM-2025",
+    "tags": ["Tape", "Medical", "Adhesive"],
+    "collectionSlugs": ["supplies"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/medical-tape-rolls.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-2026",
+    "title": "Trauma Kit — Pro",
+    "slug": "trauma-kit-pro",
+    "price": 149.0,
+    "compareAt": 179.0,
+    "shortDescription": "Comprehensive trauma kit in a rugged hard case.",
+    "description": "Professional-grade trauma kit in a waterproof yellow hard case. Includes tourniquet, chest seal, hemostatic gauze, emergency bandage, NPA, gloves, shears, and tape. Exceeds TCCC guidelines.",
+    "sku": "CM-2026",
+    "tags": ["Trauma Kit", "IFAK", "Pro", "Hard Case"],
+    "collectionSlugs": ["cavalry-medical-kits", "ifaks"],
+    "inStock": true,
+    "featured": true,
+    "isSpecial": false,
+    "images": [
+      "/assets/img/products/trauma-kit-yellow-case.jpg",
+      "/assets/img/products/trauma-kit-supplies-assorted.jpg",
+      "/assets/img/products/trauma-kit-items-red-bg.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-3001",
+    "title": "Overrun Polymer Sling Keeper (2-pack)",
+    "slug": "overrun-polymer-sling-keeper-2pack",
+    "price": 5.0,
+    "compareAt": 9.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-3001",
+    "tags": ["Specials", "Sling", "Accessory"],
+    "collectionSlugs": ["specials"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": true,
+    "images": [
+      "/assets/img/products/rail-ladder-cover-dark.jpg"
+    ],
+    "variants": [],
+    "updatedAt": "2026-02-10"
+  },
+  {
+    "id": "CM-3002",
+    "title": "Warehouse Blowout: M-LOK Rail Covers",
+    "slug": "warehouse-blowout-mlok-rail-covers",
+    "price": 9.0,
+    "compareAt": 15.0,
+    "shortDescription": "Reliable component built for hard use.",
+    "description": "Durable materials and practical features for shooting sports, military, and law enforcement applications.",
+    "sku": "CM-3002",
+    "tags": ["Specials", "M-LOK", "Covers"],
+    "collectionSlugs": ["specials", "upper-parts"],
+    "inStock": true,
+    "featured": false,
+    "isSpecial": true,
+    "images": [
+      "/assets/img/products/rail-ladder-cover-tan.jpg",
+      "/assets/img/products/rail-ladder-cover-pink.jpg"
+    ],
+    "variants": [
+      {
+        "name": "Color",
+        "options": ["Tan", "Pink"]
+      }
+    ],
+    "updatedAt": "2026-02-10"
+  }
+]

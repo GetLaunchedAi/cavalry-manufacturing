@@ -1,0 +1,12 @@
+{% set crumbs = crumbs or [] %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  {% for c in crumbs %}
+    <span aria-hidden="true">/</span>
+    {% if c.url and not c.current %}
+      <a href="{{ c.url }}">{{ c.label }}</a>
+    {% else %}
+      <span aria-current="page">{{ c.label }}</span>
+    {% endif %}
+  {% endfor %}
+</nav>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    {% set pageTitle = (title + " · " + site.brand) if title else site.brand %}
+    <title>{{ pageTitle }}</title>
+
+    <meta name="description" content="{{ description or site.tagline }}"/>
+    <meta name="theme-color" content="#0a0f14"/>
+
+    {% if site.url and page.url %}
+      <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+    {% endif %}
+
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ pageTitle }}"/>
+    <meta property="og:description" content="{{ description or site.tagline }}"/>
+    {% if site.url and page.url %}
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    {% endif %}
+
+    <link rel="icon" href="/assets/img/logo.svg"/>
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+    <link rel="stylesheet" href="/assets/css/animations.css"/>
+  </head>
+
+  <body>
+    {% include "components/header.njk" %}
+
+    <main id="main" tabindex="-1">
+      <div class="container">
+        {{ content | safe }}
+      </div>
+    </main>
+
+    {% include "components/footer.njk" %}
+
+    <script src="/assets/js/cart.js" defer></script>
+    <script src="/assets/js/site.js" defer></script>
+    {% if pageJs %}
+      <script src="{{ pageJs }}" defer></script>
+    {% endif %}
+  </body>
+</html>

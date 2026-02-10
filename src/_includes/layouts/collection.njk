@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+{% set crumbs = [{"label":"Collections", "url":"/collections/"},{"label": collection.title, "current": true}] %}
+{% include "components/breadcrumb.njk" %}
+
+<header class="page-header">
+  <span class="kicker">{{ collection.group | upper }}</span>
+  <h1>{{ collection.title }}</h1>
+  {% if collection.description %}<p>{{ collection.description }}</p>{% endif %}
+</header>
+
+{{ content | safe }}

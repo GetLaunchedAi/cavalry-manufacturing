@@ -1,0 +1,15 @@
+<a class="collection-card" href="/collections/{{ c.slug }}/">
+  {% if c.image %}
+    <div class="card-image" style="aspect-ratio: 16/9; overflow: hidden; border-radius: var(--r-md); margin-bottom: 12px;">
+      <img src="{{ c.image }}" alt="{{ c.title }}" style="width: 100%; height: 100%; object-fit: cover;" />
+    </div>
+  {% endif %}
+  <div class="kicker">{{ c.group | upper }}</div>
+  <div style="font-weight:900; font-size:16px; line-height:1.1;">{{ c.title }}</div>
+  <div class="meta">{{ c.description or "" }}</div>
+  {% if products %}
+    <div class="badge" style="margin-top:auto;">
+      {{ products | countInCollection(c.slug) }} item(s) {% icon "arrow" %}
+    </div>
+  {% endif %}
+</a>

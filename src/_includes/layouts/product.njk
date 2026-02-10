@@ -1,0 +1,121 @@
+---
+layout: layouts/base.njk
+---
+{% set primarySlug = (product.collectionSlugs[0] if product.collectionSlugs and product.collectionSlugs.length else null) %}
+{% set primaryCollection = null %}
+{% if primarySlug %}
+  {% for c in collectionsData %}
+    {% if c.slug == primarySlug %}
+      {% set primaryCollection = c %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% set crumbs = [{"label":"Collections", "url":"/collections/"}] %}
+{% if primaryCollection %}
+  {% set crumbs = crumbs | concat([{"label": primaryCollection.title, "url": "/collections/" + primaryCollection.slug + "/"}]) %}
+{% endif %}
+{% set crumbs = crumbs | concat([{"label": product.title, "current": true}]) %}
+
+{% include "components/breadcrumb.njk" %}
+
+<article class="product">
+  <div class="gallery" id="product-gallery">
+    <div class="gallery-main">
+      <img id="gallery-main-img" src="{{ (product.images[0] if product.images and product.images.length else '/assets/img/placeholder.svg') }}" alt="{{ product.title }}" />
+    </div>
+    {% if product.images and product.images.length > 1 %}
+      <div class="gallery-thumbs">
+        {% for img in product.images %}
+          <button class="gallery-thumb{% if loop.first %} active{% endif %}" data-gallery-thumb data-img="{{ img }}" aria-label="View image {{ loop.index }}">
+            <img src="{{ img }}" alt="{{ product.title }} — view {{ loop.index }}" loading="lazy" />
+          </button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="info">
+    <span class="kicker">SKU {{ product.sku }}</span>
+    <h1>{{ product.title }}</h1>
+    <p>{{ product.shortDescription or product.description }}</p>
+
+    <div class="price-row" style="margin-top:14px;">
+      <span class="price-now">{{ product.price | money }}</span>
+      {% if product.compareAt %}
+        <span class="price-was">{{ product.compareAt | money }}</span>
+      {% endif %}
+    </div>
+
+    <div class="kv">
+      {% if product.isSpecial %}<span class="pill accent">Special</span>{% endif %}
+      {% if product.featured %}<span class="pill good">Featured</span>{% endif %}
+      {% if product.inStock %}<span class="pill">In stock</span>{% else %}<span class="pill bad">Out of stock</span>{% endif %}
+    </div>
+
+    <div style="height:14px;"></div>
+
+    <form class="stack" data-product-form data-product-id="{{ product.id }}">
+      {% if product.variants and product.variants.length %}
+        <div class="field-row cols-2">
+          {% for v in product.variants %}
+            <div>
+              <label for="v-{{ loop.index }}">{{ v.name }}</label>
+              <select id="v-{{ loop.index }}" name="variant:{{ v.name }}">
+                {% for opt in v.options %}
+                  <option value="{{ opt }}">{{ opt }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="field-row cols-2">
+        <div>
+          <label for="qty">Quantity</label>
+          <input id="qty" type="number" min="1" step="1" value="1" name="qty" />
+        </div>
+        <div style="display:flex; align-items:flex-end; gap:10px;">
+          <button class="btn primary" type="button" data-add-to-cart data-product-id="{{ product.id }}" {% if not product.inStock %}disabled{% endif %}>
+            Add to cart
+          </button>
+          <a class="btn" href="/cart/">View cart</a>
+        </div>
+      </div>
+
+      <div class="small">Checkout is handled externally; this site stores your cart locally.</div>
+    </form>
+
+    <div class="accordion" style="margin-top:18px;">
+      <details open>
+        <summary>Details</summary>
+        <div class="small" style="margin-top:10px; color:var(--muted);">
+          {{ product.description }}
+        </div>
+      </details>
+
+      <details>
+        <summary>Specs</summary>
+        <div class="small" style="margin-top:10px; color:var(--muted);">
+          <div><strong>SKU:</strong> {{ product.sku }}</div>
+          <div><strong>Tags:</strong> {{ (product.tags or []) | join(", ") }}</div>
+          <div><strong>Updated:</strong> {{ product.updatedAt }}</div>
+        </div>
+      </details>
+
+      <details>
+        <summary>Shipping & returns</summary>
+        <div class="small" style="margin-top:10px; color:var(--muted);">
+          <div>{{ site.shippingNote }}</div>
+          <div style="margin-top:8px;">
+            <a href="/shipping/">Shipping policy</a> ·
+            <a href="/returns/">Returns</a>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<script id="product-data" type="application/json">{{ product | json | safe }}</script>

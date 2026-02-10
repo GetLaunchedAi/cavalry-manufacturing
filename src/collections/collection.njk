@@ -1,0 +1,117 @@
+---
+pagination:
+  data: collectionsData
+  size: 1
+  alias: collection
+permalink: "/collections/{{ collection.slug }}/index.html"
+layout: layouts/collection.njk
+pageJs: /assets/js/collection.js
+---
+
+{% set descendants = collectionsData | descendantSlugs(collection.slug) %}
+{% set collectionProducts = products | byCollections(descendants) %}
+{% set children = collectionsData | childrenOf(collection.slug) %}
+{% set tags = collectionProducts | uniqueTags %}
+
+{% if children and children.length %}
+  <section class="section" style="margin-top:0;">
+    <div class="card pad">
+      <span class="kicker">Sub-collections</span>
+      <h2 style="margin:10px 0 8px;">Explore {{ collection.title }}</h2>
+      <p class="small" style="color:var(--muted); margin:0;">Choose a sub-collection or browse all products below.</p>
+      <div style="height:14px;"></div>
+      <div class="grid cols-4">
+        {% for c in children | sortByKey("title") %}
+          {% set c = c %}
+          {% include "components/category-card.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+<section class="section" style="margin-top:{% if children and children.length %}var(--s-8){% else %}0{% endif %};">
+  <div class="card pad">
+    <div class="split" style="display:flex; align-items:flex-end; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+      <div>
+        <span class="kicker">Products</span>
+        <h2 style="margin:10px 0 0;">{{ collectionProducts.length }} item(s)</h2>
+        <div class="small" style="color:var(--muted);">Filter by tag, stock status, and price range. Sort by featured/newest/price.</div>
+      </div>
+      <a class="btn" href="/search/">Search site-wide</a>
+    </div>
+
+    <div style="height:14px;"></div>
+
+    <div class="toolbar" data-collection-toolbar>
+      <div>
+        <label for="q">Search in this collection</label>
+        <input id="q" type="search" placeholder="Search title, SKU, tags…" data-filter-q />
+      </div>
+
+      <div>
+        <label for="tag">Tag</label>
+        <select id="tag" data-filter-tag>
+          <option value="">All tags</option>
+          {% for t in tags %}
+            <option value="{{ t }}">{{ t }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div>
+        <label for="stock">Stock</label>
+        <select id="stock" data-filter-stock>
+          <option value="">All</option>
+          <option value="in">In stock</option>
+          <option value="out">Out of stock</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="sort">Sort</label>
+        <select id="sort" data-sort>
+          <option value="featured">Featured</option>
+          <option value="newest">Newest</option>
+          <option value="price-asc">Price: low → high</option>
+          <option value="price-desc">Price: high → low</option>
+          <option value="az">A → Z</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Price range</label>
+        <div class="field-row cols-2" style="gap:10px;">
+          <input type="number" min="0" step="0.01" placeholder="Min" data-filter-min />
+          <input type="number" min="0" step="0.01" placeholder="Max" data-filter-max />
+        </div>
+        <div class="hint" data-range-hint></div>
+      </div>
+
+      <div style="display:flex; align-items:flex-end; gap:10px;">
+        <button class="btn" type="button" data-reset>Reset</button>
+        <div class="badge" data-results-count>{{ collectionProducts.length }} results</div>
+      </div>
+    </div>
+
+    <div style="height:16px;"></div>
+
+    <div id="results" class="product-grid" data-results></div>
+
+    <noscript>
+      <div class="product-grid" style="margin-top:16px;">
+        {% for p in collectionProducts | sortByKey("title") %}
+          {% set p = p %}
+          {% include "components/product-card.njk" %}
+        {% endfor %}
+      </div>
+    </noscript>
+  </div>
+
+  <script type="application/json" id="collection-products-data">{{ collectionProducts | json | safe }}</script>
+  <script type="application/json" id="collection-context">{{ {
+    "slug": collection.slug,
+    "title": collection.title,
+    "descendants": descendants
+  } | json | safe }}</script>
+</section>

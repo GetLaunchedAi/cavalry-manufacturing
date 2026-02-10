@@ -1,0 +1,37 @@
+---
+layout: layouts/shop.njk
+title: Cart
+kicker: Store
+subtitle: Review items before checkout.
+pageJs: /assets/js/cart-ui.js
+---
+
+<div class="cart">
+  <div class="card pad">
+    <h2 style="margin:0 0 12px;">Items</h2>
+    <div data-cart-items></div>
+    <div data-cart-empty class="small" style="color:var(--muted); display:none;">
+      Your cart is empty. <a href="/collections/">Browse collections</a> or <a href="/search/">search products</a>.
+    </div>
+  </div>
+
+  <div class="card pad">
+    <h2 style="margin:0 0 12px;">Summary</h2>
+    <div class="stack">
+      <div style="display:flex; justify-content:space-between; gap:10px;">
+        <span class="small">Subtotal</span>
+        <strong data-cart-subtotal>$0.00</strong>
+      </div>
+
+      <div class="small" style="color:var(--muted);">
+        Taxes, shipping, and payment are handled during checkout.
+      </div>
+
+      <a class="btn primary" href="/checkout/">Continue to checkout</a>
+      <button class="btn" type="button" data-cart-clear>Clear cart</button>
+
+    </div>
+  </div>
+</div>
+
+<script id="products-data" type="application/json">{{ products | json | safe }}</script>

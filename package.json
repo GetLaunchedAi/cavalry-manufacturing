@@ -1,0 +1,14 @@
+{
+  "name": "cavalry-manufacturing-redesign",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phase 2 Eleventy storefront redesign with products/collections generation, search, cart, and static-friendly admin import/export.",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve --quiet",
+    "build": "npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "sharp": "^0.34.5"
+  }
+}

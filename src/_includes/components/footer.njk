@@ -1,0 +1,56 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-title">{{ site.brand }}</div>
+        <div class="small">{{ site.tagline }}</div>
+        <div style="height:14px;"></div>
+        <div class="badge">🛡️ Built for hard use</div>
+        <div style="height:10px;"></div>
+        <div class="badge">🚚 Ships to US and US military addresses only</div>
+      </div>
+
+      <div>
+        <div class="footer-title">Shop</div>
+        <div class="stack" style="--_gap:10px;">
+          <a href="/collections/">All collections</a>
+          <a href="/collections/specials/">Specials</a>
+          <a href="/search/">Search</a>
+          <a href="/cart/">Cart</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-title">Support</div>
+        <div class="stack" style="--_gap:10px;">
+          {% for p in site.policies %}
+            <a href="{{ p.url }}">{{ p.label }}</a>
+          {% endfor %}
+          <a href="/help/">Help</a>
+          <a href="/contact/">Contact</a>
+          <a href="/admin/">Admin</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-title">Newsletter</div>
+        <div class="small">Get product drops and restock alerts.</div>
+        <div style="height:10px;"></div>
+        <form class="stack" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+          <label for="nl-email">Email</label>
+          <input id="nl-email" type="email" placeholder="you@example.com" required />
+          <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="small">
+        © {{ site.brand }} {{ "" | nowYear }} · {{ site.addressShort }}
+      </div>
+      <div class="small">
+        Made by <a href="https://kalamazoowebsitedesign.com" class="credit-link" target="_blank" rel="noopener">Kalamazoo Website design</a>
+      </div>
+    </div>
+  </div>
+</footer>

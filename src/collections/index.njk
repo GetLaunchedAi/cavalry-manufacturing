@@ -1,0 +1,58 @@
+---
+layout: layouts/shop.njk
+title: Collections
+kicker: Store
+subtitle: Browse all collections. Use filters and sorting inside each collection.
+---
+
+<section class="section" style="margin-top:0;">
+  <div class="grid cols-3">
+    {% for c in collectionsData | topLevel %}
+      {% set c = c %}
+      {% include "components/category-card.njk" %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="card pad">
+    <span class="kicker">Firearm Accessories & Components</span>
+    <h2 style="margin:10px 0 8px;">Browse firearm sub-collections</h2>
+    <p class="small" style="color:var(--muted); margin:0;">Includes AR15 furniture sets, standard and special colors, shotgun systems, and platform accessories.</p>
+    <div style="height:14px;"></div>
+    <div class="grid cols-4">
+      {% for c in collectionsData | childrenOf("firearm-accessories") | sortByKey("title") %}
+        {% set c = c %}
+        {% include "components/category-card.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="card pad">
+    <span class="kicker">Cavalry Medical</span>
+    <h2 style="margin:10px 0 8px;">Browse medical sub-collections</h2>
+    <p class="small" style="color:var(--muted); margin:0;">Emergency bandages, Celox granules, chest seals, tourniquets, kits, and supplies.</p>
+    <div style="height:14px;"></div>
+    <div class="grid cols-4">
+      {% for c in collectionsData | childrenOf("cavalry-medical") | sortByKey("title") %}
+        {% set c = c %}
+        {% include "components/category-card.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="page-header" style="padding:0 0 14px;">
+    <span class="kicker">Catalog</span>
+    <h2 style="margin:10px 0 0;">All products</h2>
+  </div>
+  <div class="product-grid">
+    {% for p in products | sortByKey("title") %}
+      {% set p = p %}
+      {% include "components/product-card.njk" %}
+    {% endfor %}
+  </div>
+</section>

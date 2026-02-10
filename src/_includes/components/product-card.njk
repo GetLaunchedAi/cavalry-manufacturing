@@ -1,0 +1,35 @@
+<article class="product-card">
+  <a class="img" href="/products/{{ p.slug }}/" aria-label="View {{ p.title }}">
+    <img src="{{ (p.images[0] if p.images and p.images.length else '/assets/img/placeholder.svg') }}" alt="{{ p.title }}" />
+  </a>
+
+  <div class="body">
+    <div class="kv">
+      {% if p.isSpecial %}<span class="pill accent">Special</span>{% endif %}
+      {% if p.featured %}<span class="pill good">Featured</span>{% endif %}
+      {% if p.inStock %}<span class="pill">In stock</span>{% else %}<span class="pill bad">Out of stock</span>{% endif %}
+    </div>
+
+    <a class="title" href="/products/{{ p.slug }}/">{{ p.title }}</a>
+
+    <div class="desc">{{ (p.shortDescription or p.description) | excerpt(95) }}</div>
+
+    <div class="price-row">
+      <span class="price-now">{{ p.price | money }}</span>
+      {% if p.compareAt %}
+        <span class="price-was">{{ p.compareAt | money }}</span>
+      {% endif %}
+    </div>
+
+    <div class="actions">
+      <a class="btn" href="/products/{{ p.slug }}/">View {% icon "arrow" %}</a>
+      <button class="btn primary" type="button"
+        data-add-to-cart
+        data-product-id="{{ p.id }}"
+        {% if not p.inStock %}disabled{% endif %}
+        aria-label="Add {{ p.title }} to cart">
+        Add
+      </button>
+    </div>
+  </div>
+</article>

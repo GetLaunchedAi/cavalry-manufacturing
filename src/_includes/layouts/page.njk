@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+<header class="page-header reveal reveal-up">
+  <span class="kicker">{{ kicker or "Info" }}</span>
+  <h1>{{ title }}</h1>
+  {% if subtitle %}<p>{{ subtitle }}</p>{% endif %}
+</header>
+
+<div class="card pad reveal reveal-up">
+  {{ content | safe }}
+</div>

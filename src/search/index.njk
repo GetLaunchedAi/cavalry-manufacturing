@@ -1,0 +1,36 @@
+---
+layout: layouts/shop.njk
+title: Search
+kicker: Store
+subtitle: Search products by title, SKU, tags, or description.
+pageJs: /assets/js/search.js
+---
+
+<div class="card pad">
+  <div class="field-row cols-2">
+    <div style="grid-column: span 12;">
+      <label for="search">Search</label>
+      <input id="search" type="search" placeholder="Try: tourniquet, BCG, M-LOK…" data-search-input />
+      <div class="hint">Instant results with lightweight highlighting (debounced).</div>
+    </div>
+  </div>
+
+  <div style="height:14px;"></div>
+
+  <div class="badge" data-search-count>{{ products.length }} products loaded</div>
+
+  <div style="height:16px;"></div>
+
+  <div class="product-grid" data-search-results></div>
+
+  <noscript>
+    <div class="product-grid" style="margin-top:16px;">
+      {% for p in products | sortByKey("title") %}
+        {% set p = p %}
+        {% include "components/product-card.njk" %}
+      {% endfor %}
+    </div>
+  </noscript>
+</div>
+
+<script id="products-data" type="application/json">{{ products | json | safe }}</script>
